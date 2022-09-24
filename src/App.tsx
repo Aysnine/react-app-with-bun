@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ChartsPage from './pages/charts';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <ChartsPage />
     </div>
   );
 }
